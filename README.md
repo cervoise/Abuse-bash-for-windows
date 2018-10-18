@@ -1,6 +1,6 @@
 # Abuse-bash-for-windows
 Pentest scripts for abuse Bash on Windows (Cygwin/WSL) - HackLu 2018
-- Slides: Wait for upload.
+- Slides: http://archive.hack.lu/2018/A_Cervoise-Backdoor_Bash_on_Windows.pdf
 - Video: https://www.youtube.com/watch?v=X0h8sNBmB3c
 
 ## Backdoor

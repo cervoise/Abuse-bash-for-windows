@@ -41,3 +41,9 @@ Compromission hint: the first password is always wrong. If the user failed at ea
 This is a module that extract /etc/shadow files from Linux filesystems (from WSL) for every user (if run as non admin, only the current user can be checked).
 
 Known bug: if there is no /etc/shadow file, an empty file is downloaded.
+
+## LaZagne module
+
+A LaZagne module is available in LaZagne repo (https://github.com/AlessandroZ/LaZagne/). There is some improvements to do:
+- Check if Windows can run WSL, if not do not run the module.
+- If the user is local admin, extract /etc/shadow for all user as its done in Metasploit module.
